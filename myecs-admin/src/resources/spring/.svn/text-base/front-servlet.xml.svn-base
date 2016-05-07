@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" 
+       xmlns:aop="http://www.springframework.org/schema/aop" 
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:tx="http://www.springframework.org/schema/tx" 
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/aop 
+        http://www.springframework.org/schema/aop/spring-aop-4.1.xsd 
+        http://www.springframework.org/schema/beans 
+        http://www.springframework.org/schema/beans/spring-beans-4.1.xsd
+        http://www.springframework.org/schema/context 
+        http://www.springframework.org/schema/context/spring-context-4.1.xsd
+        http://www.springframework.org/schema/mvc 
+        http://www.springframework.org/schema/mvc/spring-mvc-4.1.xsd
+        http://www.springframework.org/schema/tx 
+        http://www.springframework.org/schema/tx/spring-tx-4.1.xsd">
+         <!-- 启用注解 由于 context:component-scan 中已经包含了启用注解，所以该段可以注释  -->
+        <context:annotation-config></context:annotation-config>
+        <!-- 该配置文件只扫描 控制层实体-->
+        <context:component-scan base-package="cn.com.sinosoft.iecshop.*.web.front"></context:component-scan>
+        <!-- 静态资源  cache-period 静态文件缓存时间单位为S  order:默认是2147483646 优先找order小的进行匹配 -->
+        <mvc:resources mapping="/css/**" location="/css/" cache-period="31556926" order="2147483646"></mvc:resources>
+        <mvc:resources mapping="/js/**" location="/js/" cache-period="31556926" order="2147483646"></mvc:resources>
+        <mvc:resources mapping="/images/**" location="/images/" cache-period="31556926" order="2147483646"></mvc:resources>
+       
+   	    <!-- 
+   	  		请求如何映射到具体的Action中的方法
+   	  		方案一：基于xml配置映射，可以利用SimpleUrlHandlerMapping、BeanNameUrlHandlerMapping进行Url映射和拦截请求。
+   	  		方案二：基于注解映射，可以使用DefaultAnnotationHandlerMapping(3.1之后使用RequestMappingHandlerMapping替换)。
+   	    -->
+        <bean id="handlerMapping" class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping">
+        	<property name="interceptors">
+        		<list>
+        			<ref bean="frontContextInterceptor"/>
+        		</list>
+        	</property>
+        </bean>
+       
+        <bean id="frontContextInterceptor" class="cn.com.sinosoft.iecshop.cms.web.front.interceptor.FrontContentInterceptor"></bean>
+         
+        <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter"/>
+        
+        
+		
+		
+	
+        <import resource="context-servlet.xml"/>
+		
+</beans>

@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/myecs-online/myecs-online.iml" filepath="$PROJECT_DIR$/myecs-online/myecs-online.iml" />
       <module fileurl="file://$PROJECT_DIR$/myecs-service/myecs-service.iml" filepath="$PROJECT_DIR$/myecs-service/myecs-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/myecs-service-api/myecs-service-api.iml" filepath="$PROJECT_DIR$/myecs-service-api/myecs-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myecs-task/myecs-task.iml" filepath="$PROJECT_DIR$/myecs-task/myecs-task.iml" />
     </modules>
   </component>
 </project>

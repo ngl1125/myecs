@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 192
+/svn/%E4%B8%AD%E7%A7%91%E8%BD%AF%E8%87%AA%E6%9C%89%E4%BA%A7%E5%93%81%E7%A0%94%E5%8F%91/!svn/ver/37/%E5%8F%91%E5%B8%83%E7%B3%BB%E7%BB%9F/%E6%BA%90%E7%A0%81/iecshop-cms/src/main/resources/spring
+END
+context-servlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 212
+/svn/%E4%B8%AD%E7%A7%91%E8%BD%AF%E8%87%AA%E6%9C%89%E4%BA%A7%E5%93%81%E7%A0%94%E5%8F%91/!svn/ver/37/%E5%8F%91%E5%B8%83%E7%B3%BB%E7%BB%9F/%E6%BA%90%E7%A0%81/iecshop-cms/src/main/resources/spring/context-servlet.xml
+END
+admin-servlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 210
+/svn/%E4%B8%AD%E7%A7%91%E8%BD%AF%E8%87%AA%E6%9C%89%E4%BA%A7%E5%93%81%E7%A0%94%E5%8F%91/!svn/ver/37/%E5%8F%91%E5%B8%83%E7%B3%BB%E7%BB%9F/%E6%BA%90%E7%A0%81/iecshop-cms/src/main/resources/spring/admin-servlet.xml
+END
+applicationContext-quartz.xml
+K 25
+svn:wc:ra_dav:version-url
+V 222
+/svn/%E4%B8%AD%E7%A7%91%E8%BD%AF%E8%87%AA%E6%9C%89%E4%BA%A7%E5%93%81%E7%A0%94%E5%8F%91/!svn/ver/37/%E5%8F%91%E5%B8%83%E7%B3%BB%E7%BB%9F/%E6%BA%90%E7%A0%81/iecshop-cms/src/main/resources/spring/applicationContext-quartz.xml
+END
+applicationContext-dataAccess.xml
+K 25
+svn:wc:ra_dav:version-url
+V 226
+/svn/%E4%B8%AD%E7%A7%91%E8%BD%AF%E8%87%AA%E6%9C%89%E4%BA%A7%E5%93%81%E7%A0%94%E5%8F%91/!svn/ver/37/%E5%8F%91%E5%B8%83%E7%B3%BB%E7%BB%9F/%E6%BA%90%E7%A0%81/iecshop-cms/src/main/resources/spring/applicationContext-dataAccess.xml
+END
+applicationContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 215
+/svn/%E4%B8%AD%E7%A7%91%E8%BD%AF%E8%87%AA%E6%9C%89%E4%BA%A7%E5%93%81%E7%A0%94%E5%8F%91/!svn/ver/37/%E5%8F%91%E5%B8%83%E7%B3%BB%E7%BB%9F/%E6%BA%90%E7%A0%81/iecshop-cms/src/main/resources/spring/applicationContext.xml
+END
+front-servlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 210
+/svn/%E4%B8%AD%E7%A7%91%E8%BD%AF%E8%87%AA%E6%9C%89%E4%BA%A7%E5%93%81%E7%A0%94%E5%8F%91/!svn/ver/37/%E5%8F%91%E5%B8%83%E7%B3%BB%E7%BB%9F/%E6%BA%90%E7%A0%81/iecshop-cms/src/main/resources/spring/front-servlet.xml
+END
+applicationContext-shiro.xml
+K 25
+svn:wc:ra_dav:version-url
+V 221
+/svn/%E4%B8%AD%E7%A7%91%E8%BD%AF%E8%87%AA%E6%9C%89%E4%BA%A7%E5%93%81%E7%A0%94%E5%8F%91/!svn/ver/37/%E5%8F%91%E5%B8%83%E7%B3%BB%E7%BB%9F/%E6%BA%90%E7%A0%81/iecshop-cms/src/main/resources/spring/applicationContext-shiro.xml
+END
+applicationContext-hibernate.xml
+K 25
+svn:wc:ra_dav:version-url
+V 225
+/svn/%E4%B8%AD%E7%A7%91%E8%BD%AF%E8%87%AA%E6%9C%89%E4%BA%A7%E5%93%81%E7%A0%94%E5%8F%91/!svn/ver/37/%E5%8F%91%E5%B8%83%E7%B3%BB%E7%BB%9F/%E6%BA%90%E7%A0%81/iecshop-cms/src/main/resources/spring/applicationContext-hibernate.xml
+END

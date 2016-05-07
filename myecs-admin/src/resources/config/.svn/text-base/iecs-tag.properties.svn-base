@@ -1,0 +1,11 @@
+
+#########################定义标签key值#############
+directive.site_list = site_list
+
+directive.channel_list = channel_list
+
+directive.content_page = content_page
+
+directive.content_bean = content_bean
+
+directive.ad_bean = ad_bean

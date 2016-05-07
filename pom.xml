@@ -12,6 +12,7 @@
         <module>myecs-online</module>
         <module>myecs-service</module>
         <module>myecs-service-api</module>
+        <module>myecs-task</module>
     </modules>
     <packaging>pom</packaging>
 
