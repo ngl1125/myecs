@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="myecs-service:war">
+    <output-path>$PROJECT_DIR$/myecs-service/target</output-path>
+    <root id="archive" name="myecs-service-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="myecs-service:war exploded" />
+    </root>
+  </artifact>
+</component>
